@@ -1,0 +1,224 @@
+
+// .panel {
+//     box-shadow: 0 2px 0 rgba(0,0,0,0.05);
+//     border-radius: 0;
+//     border: 0;
+//     font-size: 0.85rem;
+//     margin-bottom: 10px;
+// } 
+// .panel-dark.panel-colorful {
+//     background-color: #3b4146;
+//     border-color: #3b4146;
+//     color: #fff;
+// }  
+// .panel-danger.panel-colorful {
+//     background-color: #f76c51;
+//     border-color: #f76c51;
+//     color: #fff;
+// }  
+// .panel-primary.panel-colorful {
+//     background-color: #5fa2dd;
+//     border-color: #5fa2dd;
+//     color: #fff;
+// }  
+// .panel-info.panel-colorful {
+//     background-color: #4ebcda;
+//     border-color: #4ebcda;
+//     color: #fff;
+// }  
+// .panel-body {
+//     padding: 20px 20px;
+// }  
+// .panel hr {
+//     border-color: rgba(0,0,0,0.1);
+// }
+
+
+// .page-title {
+//     padding-top: 10px;
+//     color: darkorange;
+//     font-size: 1.55rem;
+//     font-weight: 500;
+// }
+
+
+/*============================================================ */
+.content {
+    // background-color: #E8E5F2;
+    margin-top: 50px;
+}
+.thumb-lg {
+    height: 88px;
+    width: 88px;
+}
+.profile-user-box {
+    position: relative;
+    border-radius: 5px
+}
+.bg-custom {
+    background-color: #02c0ce!important;
+}
+.profile-user-box {
+    position: relative;
+    border-radius: 5px;
+}
+
+.card-box {
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    // background-color: #fff;
+}
+.inbox-widget .inbox-item img {
+    width: 40px;
+}
+
+.inbox-widget .inbox-item {
+    border-bottom: 1px solid #f3f6f8;
+    overflow: hidden;
+    padding: 10px 0;
+    position: relative
+}
+
+.inbox-widget .inbox-item .inbox-item-img {
+    display: block;
+    float: left;
+    margin-right: 15px;
+    width: 40px
+}
+
+.inbox-widget .inbox-item img {
+    width: 40px
+}
+
+.inbox-widget .inbox-item .inbox-item-author {
+    color: #313a46;
+    display: block;
+    margin: 0
+}
+
+.inbox-widget .inbox-item .inbox-item-text {
+    color: #98a6ad;
+    display: block;
+    font-size: 14px;
+    margin: 0
+}
+
+.inbox-widget .inbox-item .inbox-item-date {
+    color: #98a6ad;
+    font-size: 11px;
+    position: absolute;
+    right: 7px;
+    top: 12px
+}
+
+// .comment-list .comment-box-item {
+//     position: relative
+// }
+// .comment-list .comment-box-item .commnet-item-date {
+//     color: #98a6ad;
+//     font-size: 11px;
+//     position: absolute;
+//     right: 7px;
+//     top: 2px
+// }
+// .comment-list .comment-box-item .commnet-item-msg {
+//     color: #313a46;
+//     display: block;
+//     margin: 10px 0;
+//     font-weight: 400;
+//     font-size: 15px;
+//     line-height: 24px
+// }
+// .comment-list .comment-box-item .commnet-item-user {
+//     color: #98a6ad;
+//     display: block;
+//     font-size: 14px;
+//     margin: 0
+// }
+// .comment-list a+a {
+//     margin-top: 15px;
+//     display: block
+// }
+
+.ribbon-box .ribbon-primary {
+    background: #7C66CC;
+    width: 170px;
+}
+.ribbon-box .ribbon {
+    position: relative;
+    float: left;
+    clear: both;
+    padding: 5px 12px 5px 12px;
+    margin-left: -30px;
+    margin-bottom: 15px;
+    font-family: Rubik,sans-serif;
+    -webkit-box-shadow: 2px 5px 10px rgba(49,58,70,.15);
+    -o-box-shadow: 2px 5px 10px rgba(49,58,70,.15);
+    box-shadow: 2px 5px 10px rgba(49,58,70,.15);
+    color: #fff;
+    font-size: 15px;
+}
+.ribbon-box .ribbon-big {
+    position: relative;
+    float: left;
+    clear: both;
+    padding: 25px 12px 5px 12px;
+    margin-left: -60px;
+    margin-bottom: 5px;
+    font-family: Rubik,sans-serif;
+    -webkit-box-shadow: 2px 5px 10px rgba(49,58,70,.15);
+    -o-box-shadow: 2px 5px 10px rgba(49,58,70,.15);
+    box-shadow: 2px 5px 10px rgba(49,58,70,.15);
+    color: #fff;
+    font-size: 23px;
+}
+.text-custom {
+    color: #02c0ce!important;
+}
+
+.badge-custom {
+    background: #02c0ce;
+    font-size: 1.1rem;
+    color: #fff;
+}
+.badge {
+    font-family: Rubik,sans-serif;
+    -webkit-box-shadow: 0 0 24px 0 rgba(0,0,0,.06), 0 1px 0 0 rgba(0,0,0,.02);
+    box-shadow: 0 0 24px 0 rgba(0,0,0,.06), 0 1px 0 0 rgba(0,0,0,.02);
+    padding: .35em .5em;
+    font-weight: 500;
+}
+
+
+
+
+
+.bi-text {
+    font-size: 2.3rem;
+}
+
+// .font-13 {
+//     font-size: 13px!important;
+// }
+
+
+
+// --- dialog transition
+.fade-enter-from, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+}
+.fade-leave-from, .fade-enter-to {
+    transition: opacity .5s, transform 1s;
+}
+
+
+// ==================== t r a n s i t i o n =================== //
+//https://v3-migration.vuejs.org/breaking-changes/transition.html#overview
+.page-enter-from, .page-leave-to {
+    opacity: 0;
+    transform: translateX(-30%);
+}
+.page-leave-from, .page-enter-to {
+    transition: opacity 1s, transform 1s;
+}

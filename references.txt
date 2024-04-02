@@ -1,0 +1,5 @@
+
+Firebase Login/Sign-In w/ Email & Password
+https://firebase.google.com/docs/auth/web/password-auth
+
+https://v3-migration.vuejs.org/breaking-changes/transition.html#overview
