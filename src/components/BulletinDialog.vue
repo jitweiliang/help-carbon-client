@@ -71,7 +71,7 @@
     const bulletin = ref({})
     const rules = {
         title   : { required, minLength: minLength(10), maxLength: maxLength(100), $autoDirty: true },
-        message : { required, minLength: minLength(10), maxLength: maxLength(100), $autoDirty: true },
+        message : { required, minLength: minLength(10), maxLength: maxLength(500), $autoDirty: true },
     }
     const $v = useVuelidate(rules, bulletin)
 

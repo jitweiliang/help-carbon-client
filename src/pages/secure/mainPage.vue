@@ -1,7 +1,7 @@
 <!-- https://www.bootdey.com/snippets/view/bs4-Profile-with-dashboard -->
 <template>
     <div class="content">
-        <div class="p-5">
+        <div class="">
             <!-- navigation bar -->
             <div class="row">
                 <div class="col-12">

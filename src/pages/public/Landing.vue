@@ -3,7 +3,7 @@
         <div class="container-fluid">
             <img src="@/assets/terra.svg" alt="" width="50" height="65">
             <h3>My Terra Carbon</h3>
-            <p style="">0.0.1</p>
+            <p style="">0.0.2</p>
 
             <div class="d-flex flex-grow-1">
                 <span class="w-100 d-lg-none d-block">

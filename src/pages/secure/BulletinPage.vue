@@ -5,7 +5,7 @@
         <bulletin-dialog v-if="isModalVisible"  @dialog-closed="closeDialog" :user-id="user.userId" :userName="user.userName"></bulletin-dialog>
     </transition>
 
-    <div class="p-3">
+    <div class="p-5">
         <div class="row">
             <header class="header bg-white shadow align-self-end py-1 px-xl-5 w-100">
                 <div class="container-fluid">

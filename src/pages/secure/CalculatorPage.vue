@@ -32,31 +32,31 @@
                                 </div>
                                 <div class="container border row mt-3 pt-5 mx-3">
                                     <div class="row pt-3">
-                                    <div class="form-label mb-3 col-md-6">
+                                    <div class="form-label mb-3 col-12 col-md-6">
                                         <label for="electricity">Electricity (kWh):</label>
                                         <input type="number" min="0" class="form-control" id="electricity" v-model="household.electricity">
                                     </div>
-                                    <div class="form-label col-md-6">
+                                    <div class="form-label col-12 col-md-6">
                                         <label for="propane">Propane (litres):</label>
                                         <input type="number" min="0" class="form-control" id="propane" name="propane" v-model="household.propane">
                                     </div>
                                 </div>
                                 <div class="row pt-3">
-                                    <div class="form-label mb-3 col-md-6">
+                                    <div class="form-label mb-3 col-12 col-md-6">
                                         <label for="heatingoil">Heating Oil (litres):</label>
                                         <input type="number" min="0" class="form-control" id="heatingoil" name="heatingoil" v-model="household.heatingoil">
                                     </div>
-                                    <div class="form-label col-md-6">
+                                    <div class="form-label col-12 col-md-6">
                                         <label for="coal">Coal (kWh):</label>
                                         <input type="number" min="0" class="form-control" id="coal" name="coal" v-model="household.coal">
                                     </div>
                                 </div>
                                 <div class="row pt-3">
-                                    <div class="form-label mb-3 col-md-6">
+                                    <div class="form-label mb-3 col-12 col-md-6">
                                         <label for="lpg">Liquedied Petroleum Gas (litres):</label>
                                         <input type="number" min="0" class="form-control" id="lpg" name="lpg" v-model="household.lpg">
                                     </div>
-                                    <div class="form-label col-md-6">
+                                    <div class="form-label col-12 col-md-6">
                                         <label for="gas">Natural Gas (kWh):</label>
                                         <input type="number" min="0" class="form-control" id="gas" name="gas" v-model="household.gas">
                                     </div>
@@ -84,7 +84,7 @@
                                     <h4>Transportation Carbon Emission</h4>
                                 </div>
                                 <div class="container border row mt-3 pb-3 mx-3">
-                                    <div class="col-6 p-4">
+                                    <div class="col-12 col-md-6 p-4">
                                         <div class="text-center pb-2">
                                             <h5>Car 1</h5>
                                         </div>
@@ -114,7 +114,7 @@
                                             <input type="number" v-model="transportation.distance1" :disabled="transportation.type1 == 0" class="form-control" id="distance1" name="distance1">
                                         </div>
                                     </div>
-                                    <div class="col-6 p-4">
+                                    <div class="col-12 col-md-6 p-4">
                                         <div class="text-center pb-2">
                                             <h5>Car 2</h5>
                                         </div>

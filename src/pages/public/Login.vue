@@ -164,7 +164,7 @@
 
     
     async function loginEmail() {
-        if (isNotificationsEnabled()) {
+        if (await isNotificationsEnabled()) {
             // -- check valid inputs
             const isFormCorrect = await $v.value.$validate()
             if (!isFormCorrect) {
@@ -198,7 +198,10 @@
 
     async function loginFacebook() {
         // -- make sure notifications in enabled in browser
-        if (isNotificationsEnabled()) {
+
+
+
+        if (await isNotificationsEnabled()) {
             try {
                 isLoading.value = true
 
@@ -221,7 +224,7 @@
     async function loginGoogle() {
         debugger
         // -- make sure notifications in enabled in browser
-        if (isNotificationsEnabled()) {
+        if (await isNotificationsEnabled()) {
             try {
                 isLoading.value = true
 
@@ -276,7 +279,7 @@
         }
     }
 
-    function isNotificationsEnabled() {
+    async function isNotificationsEnabled() {
         let errMsg = null;
 
         // Notification is syntax that refers to the browser's notification 'state'
@@ -285,7 +288,16 @@
         } 
         else {
             if (window.Notification.permission != "granted") {
-                errMsg = "Please enable broswer notifications permission to continue!!!";
+                await Notification.requestPermission()
+                    .then(permission=> {
+                        if (permission != 'granted') {
+                            errMsg = "Please enable broswer notifications permission to continue!!!"
+                        }
+                    })
+                    .catch(err => {
+                        errMsg = "Please enable broswer notifications permission to continue!!!";
+                    })
+                
             }
         }
 
